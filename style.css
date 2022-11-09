@@ -1,0 +1,91 @@
+* {
+    /* Change your font family */
+    font-family: sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+}
+
+.content {
+    max-width: 450px;
+    text-align: center;
+    margin: 20px auto;
+    background: #FBFAFF;
+    color: #424242;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    padding-top: 2px;
+}
+
+.content-table {
+    border-collapse: collapse;
+    border-radius: 32px;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 450px;
+    overflow: hidden;
+}
+
+.content-table caption {
+    color: #424242;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+.content-table thead tr {
+    background-color: #FBFAFF;
+    color: #807c7c;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table thead th {
+    /* border-bottom: 10px solid rgba(214, 205, 205, 0.2); */
+    box-shadow: 0px 8px rgba(101, 87, 87, 0.25);
+}
+
+.content-table th,
+.content-table td {
+    padding: 35px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #FBFAFF;
+
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #424242;
+
+}
+
+.content-table tbody button {
+    display: flex;
+    border-radius: 50%;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    float: left;
+    background-color: #FF0000;
+    color: #FBFAFF;
+    font-size: 28px;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+
+.content-table tbody button:focus {
+    background-color: #FF4D4D;
+    color: #FBFAFF;
+}
